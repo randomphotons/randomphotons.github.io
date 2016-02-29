@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@font-face { font-family: BIRTH OF A HERO; src: url('http://www.mediafont.com/storage/contents/11996/font.eot'); /* IE */ src: local('BIRTH OF A HERO'), url('http://www.mediafont.com/storage/contents/11996/birth_of_a_hero_regular.ttf'); /* non-IE */ }
+@font-face { font-family: BIRTH OF A HERO; src: url('font.eot'); /* IE */ src: local('BIRTH OF A HERO'), url('birth_of_a_hero_regular.ttf'); /* non-IE */ }
 
 body {
     background: black;
