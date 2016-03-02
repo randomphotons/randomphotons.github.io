@@ -9,7 +9,7 @@ tags:
   - editor
   - nasa
   - iss
-sort: 1
+sort: 3
 ---
 This montage of time-lapse photography from the International Space Station is collected from many taken in Expeditions 29, 30 and 31.
 
