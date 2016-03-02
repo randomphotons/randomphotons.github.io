@@ -1,7 +1,7 @@
 ---
 name: id
 image: contact.jpg
-href: http://randomphotons/go/david_peterson.vcf
+href: http://randomphotons.com/go/david_peterson.vcf
 header: David Peterson
 tags:
   - about
