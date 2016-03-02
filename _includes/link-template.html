@@ -1,7 +1,7 @@
 <div class="eachpost {% for each in link.tags %}{{each}} {% endfor %}">
 
   <div class="card-image">
-    {% if link.image_href %}
+    {% if link.href %}
       <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}"/></a>
     {% else %}
       <img src="{{ site.baseurl }}/images/{{ link.image }}"/>
@@ -9,7 +9,7 @@
   </div>
 
   <div class="card-header">
-    <a href="{{ link.href }}">{{ link.header | markdownify }}</a>
+    <a href="{{ link.href }}" target="_blank">{{ link.header | markdownify }}</a>
   </div>
 
   <div class="card-body">
