@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="Description" content="" />
+      <meta name="Keywords" content="film, movies, video, editing, producing" />
+      <title>{{ page.title }}</title>
+      <meta name="author" content="David Peterson" />
+      <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/icon.png" />
+      {% if page.redirect %}
+      {% for link in site.links %}
+      {% if link.name == page.redirect %}
+      <meta http-equiv="refresh" content="0;URL='{{ link.href }}'">
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+
+      <!-- Homepage CSS -->
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css" media="screen, projection" />
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/randomphotons.css"/>
+
+      <!-- Google Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+      <!-- Font Awesome -->
+      <script src="https://use.fonticons.com/7b395d77.js"></script>
+
+      <!-- Javascripts -->
+      <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.10.1.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded.pkgd.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/js/packery-mode.pkgd.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-scrolltofixed.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+  </head>
+  <body>
+      <div id="body-wrapper">
+        {% include header-isotope.html %}
+        
+        {{content}}
+      </div>
+      {% include body-scripts.html %}
+  </body>
+</html>

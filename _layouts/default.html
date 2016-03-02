@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="Description" content="{{ site.description }}" />
+      <meta name="Keywords" content="{{ site.keywords }}" />
+      <title>{{ page.title }}</title>
+      <meta name="author" content="David Peterson" />
+      <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/icon.png" />
+      {% if page.redirect %}
+      <meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'">
+      {% endif %}
+
+      <!-- Homepage CSS -->
+      <link rel="stylesheet" type="text/css" href="css/randomphotons.css"/>
+  </head>
+  <body>
+        {{content}}
+        {% include body-scripts.html %}
+  </body>
+</html>

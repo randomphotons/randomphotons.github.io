@@ -1,0 +1,23 @@
+{% include filter-bar.html %}
+
+<div id="filter-focus"></div>
+
+<div id="loading" class="text-center">
+  <p>Loading...</p>
+</div>
+
+<div id="allposts">
+
+  <!-- Intro Tiles -->
+  {% include static-cards/intro-links.html %}
+
+  <!-- Main Tiles -->
+  {% assign links = site.links | sort: 'sort' %}
+  {% for link in links %}
+    {% include link-template.html %}
+  {% endfor %}
+
+  <!-- Copyright Tile -->
+  {% include static-cards/cc-license.html %}
+
+</div>

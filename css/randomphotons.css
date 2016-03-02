@@ -7,7 +7,12 @@ body {
     background: black;
 }
 
-a, a#hover a#visited {
+.random a, .random a#hover, .random a#visited {
+    color: white;
+    text-decoration: none;
+}
+
+.title a, .title a#hover, .title a#visited {
     color: white;
     text-decoration: none;
 }
@@ -26,6 +31,14 @@ a, a#hover a#visited {
   color: white;
 }
 
-.title .photons {
+.title .photons, .header .photons {
   color: #0A39A6;
+}
+
+.header {
+  text-align: center;
+  vertical-align: central;
+  font-family: "BIRTH OF A HERO", Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 60px;
+  color: white;
 }
