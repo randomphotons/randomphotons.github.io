@@ -1,29 +1,40 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
-@font-face { font-family: BIRTH OF A HERO; src: url('font.eot'); /* IE */ src: local('BIRTH OF A HERO'), url('birth_of_a_hero_regular.ttf'); /* non-IE */ }
+@font-face {
+  font-family: BIRTH OF A HERO;
+  src: url('font.eot');
+  /* IE */
+  src: local('BIRTH OF A HERO'), url('birth_of_a_hero_regular.ttf');
+  /* non-IE */
+}
 
 body {
-    background: black;
+  background: black;
 }
 
-.random a, .random a#hover, .random a#visited {
-    color: white;
-    text-decoration: none;
+.random a,
+.random a#hover,
+.random a#visited {
+  color: white;
+  text-decoration: none;
 }
 
-.title a, .title a#hover, .title a#visited {
-    color: white;
-    text-decoration: none;
+.title a,
+.title a#hover,
+.title a#visited {
+  color: white;
+  text-decoration: none;
 }
 
 .title {
-  width:300px;
-  height:200px;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin:-100px 0 0 -150px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px 0 0 -150px;
   text-align: center;
   vertical-align: central;
   font-family: "BIRTH OF A HERO", Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
@@ -31,7 +42,8 @@ body {
   color: white;
 }
 
-.title .photons, .header .photons {
+.title .photons,
+.header .photons {
   color: #0A39A6;
 }
 
