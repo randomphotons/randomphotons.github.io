@@ -32,6 +32,7 @@ body {
   text-align: center;
   font-family: "BIRTH OF A HERO", sans-serif;
   color: white;
+  font-size: 32pt;
 }
 
 .title .photons,
@@ -43,4 +44,32 @@ body {
   vertical-align: central;
   font-family: "BIRTH OF A HERO", sans-serif;
   color: white;
+}
+
+/* sm */
+@media screen and (min-width: 35.5em) {
+  .title {
+    font-size: 40pt;
+  }
+}
+
+/* md */
+@media screen and (min-width: 48em) {
+  .title {
+    font-size: 50pt;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 64em) {
+  .title {
+    font-size: 55pt;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 80em) {
+  .title {
+    font-size: 65pt;
+  }
 }
