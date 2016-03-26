@@ -29,16 +29,8 @@ body {
 }
 
 .title {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -100px 0 0 -150px;
   text-align: center;
-  vertical-align: central;
-  font-family: "BIRTH OF A HERO", Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-  font-size: 60px;
+  font-family: "BIRTH OF A HERO", sans-serif;
   color: white;
 }
 
@@ -48,9 +40,7 @@ body {
 }
 
 .header {
-  text-align: center;
   vertical-align: central;
-  font-family: "BIRTH OF A HERO", Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-  font-size: 60px;
+  font-family: "BIRTH OF A HERO", sans-serif;
   color: white;
 }

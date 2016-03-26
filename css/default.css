@@ -1,0 +1,52 @@
+body,
+html,
+main {
+  /* important */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 32pt;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 1000px;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+/* sm */
+@media screen and (min-width: 35.5em) {
+  .title {
+    font-size: 40pt;
+  }
+}
+
+/* md */
+@media screen and (min-width: 48em) {
+  .title {
+    font-size: 50pt;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 64em) {
+  .title {
+    font-size: 55pt;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 80em) {
+  .title {
+    font-size: 65pt;
+  }
+}
