@@ -2,12 +2,9 @@
 <html>
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="Description" content="" />
-  <meta name="Keywords" content="film, movies, video, editing, producing" />
-  <title>{{ page.title }}</title>
-  <meta name="author" content="David Peterson" />
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/icon.png" /> {% if page.redirect %} {% for link in site.links %} {% if link.name == page.redirect %}
+  {% include standard/head.html %}
+  
+  {% if page.redirect %} {% for link in site.links %} {% if link.name == page.redirect %}
   <meta http-equiv="refresh" content="0;URL='{{ link.href }}'"> {% endif %} {% endfor %} {% endif %}
 
   <!-- Google Fonts -->
@@ -17,14 +14,6 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/layout/links.css" type="text/css" media="screen" />
-
-  <!-- Javascripts -->
-  <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.10.1.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded-4.0.0/imagesloaded.pkgd.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/packery-mode.pkgd.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-scrolltofixed.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/layout/links.js"></script>
 </head>
 
 <body style="background: black">
@@ -33,6 +22,7 @@
     {{content}}
   </div>
   {% include standard/body-scripts.html %}
+  {% include links/body-scripts.html %}
 </body>
 
 </html>
