@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import "logo";
+
+.logo.logo-light {
+  .random {
+    color: white;
+  }
+  .photons {
+    color: $logo-secondary-color;
+  }
+}

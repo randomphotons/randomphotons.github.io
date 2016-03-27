@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import "logo";
+
+.logo.logo-dark {
+  .random {
+    color: black;
+  }
+  .photons {
+    color: $logo-secondary-color;
+  }
+}

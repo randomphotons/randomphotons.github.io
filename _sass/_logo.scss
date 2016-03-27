@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+$logo-secondary-color: #0A39A6;
+
+@font-face {
+  font-family: BIRTH OF A HERO;
+  // IE
+  src: url('../font/birth_of_a_hero_regular.eot');
+  // Everything else
+  src: local('BIRTH OF A HERO'), url('../font/birth_of_a_hero_regular.ttf');
+}
+
+.logo {
+  font-family: "BIRTH OF A HERO", sans-serif;
+  text-transform: lowercase;
+  text-decoration: none;
+  a, a:hover, a:visited {
+    text-decoration: none;
+  }
+  .photons {
+    color: $logo-secondary-color;
+  }
+}
