@@ -1,0 +1,35 @@
+{% include portfolio/filter-focus.html %}
+{% include portfolio/loading.html %}
+
+<div id="cards-wrapper">
+<div id="cards">
+  <div class="card-sizer"></div>
+  
+  <!-- Intro Tiles -->
+  <div class="card-block">
+    <div class="card">
+      <div class="card-body">
+        <p>Here you can find links to items of interest.</p>
+      </div>
+    </div>
+  </div>
+  
+  {% assign links = site.links | sort: 'sort' %}
+  <!-- Highlight the current redirect, if relevant -->
+  {% if page.redirect %}
+  {% for link in links %}
+    {% if link.name == page.redirect %}
+      {% include portfolio/card.html %}
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+  
+  <!-- Main Tiles -->
+  {% for link in links %}
+    {% if page.redirect == nil or link.name != page.redirect %}
+      {% include portfolio/card.html %}
+    {% endif %}
+  {% endfor %}
+
+</div>
+</div>

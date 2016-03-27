@@ -1,0 +1,50 @@
+---
+---
+// support imports
+@import "bourbon/bourbon";
+@import "mixins";
+
+// site imports
+@import "logo-light";
+
+// portfolio imports
+@import "portfolio/variables";
+@import "portfolio/filter-focus";
+@import "portfolio/loading";
+
+@import "portfolio/card";
+
+/**********************/
+/* Custom CSS         */
+/**********************/
+body {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: $text-color;
+  margin: 0px;
+  padding: 0px;
+  background: $background;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #666666;
+  text-decoration: underline;
+
+  &:hover {
+    color: $blue;
+    text-decoration: underline;
+  }
+
+  img {
+    text-decoration: none;
+    border: none;
+  }
+
+  img:hover {
+    opacity: 0.5;
+  }
+}
