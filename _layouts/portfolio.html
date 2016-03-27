@@ -7,22 +7,15 @@
   {% if page.redirect %} {% for link in site.links %} {% if link.name == page.redirect %}
   <meta http-equiv="refresh" content="0;URL='{{ link.href }}'">
   {% endif %} {% endfor %} {% endif %}
-
+  
   <!-- Font Awesome -->
   <script src="https://use.fonticons.com/7b395d77.js"></script>
   <!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
   <![endif]-->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-  <!--<![endif]-->
 
   <!-- Homepage CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/layout/portfolio.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/layout/portfolio.css" type="text/css" />
 </head>
 
 <body style="background: black">
