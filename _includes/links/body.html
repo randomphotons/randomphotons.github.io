@@ -1,4 +1,4 @@
-{% include filter-bar.html %}
+{% include links/filter-bar.html %}
 
 <div id="filter-focus"></div>
 
@@ -16,7 +16,7 @@
   {% if page.redirect %}
   {% for link in links %}
     {% if link.name == page.redirect %}
-      {% include link-template.html %}
+      {% include links/link-template.html %}
     {% endif %}
   {% endfor %}
   {% endif %}
@@ -24,7 +24,7 @@
   <!-- Main Tiles -->
   {% for link in links %}
     {% if page.redirect == nil or link.name != page.redirect %}
-      {% include link-template.html %}
+      {% include links/link-template.html %}
     {% endif %}
   {% endfor %}
 

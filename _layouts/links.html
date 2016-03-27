@@ -20,7 +20,7 @@
 
   <!-- Javascripts -->
   <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.10.1.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded-4.0.0/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/packery-mode.pkgd.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-scrolltofixed.min.js"></script>
@@ -29,9 +29,10 @@
 
 <body style="background: black">
   <div id="body-wrapper">
-    {% include header-isotope.html %} {{content}}
+    {% include links/header.html %}
+    {{content}}
   </div>
-  {% include body-scripts.html %}
+  {% include standard/body-scripts.html %}
 </body>
 
 </html>
