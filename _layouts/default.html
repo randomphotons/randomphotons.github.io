@@ -12,8 +12,8 @@
   <meta http-equiv="refresh" content="0;URL='{{ page.redirect }}'"> {% endif %}
 
   <!-- Homepage CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/default.css" />
-
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/default.css" />
+  {% if page.style %}<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ page.style }}">{% endif %}
 </head>
 
 <body>

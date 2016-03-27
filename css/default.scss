@@ -2,17 +2,7 @@
 ---
 @charset "UTF-8";
 
-@import "normalize-4.0.0/normalize.css";
-@import "logo-light";
-
-body,
-html,
-main {
-  /* important */
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
+@import "normalize";
 
 body {
   background: black;
@@ -20,45 +10,4 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-.logo {
-  text-align: center;
-  font-size: 32pt;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  max-width: 1000px;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 1000;
-}
-
-/* sm */
-@media screen and (min-width: 35.5em) {
-  .logo {
-    font-size: 40pt;
-  }
-}
-
-/* md */
-@media screen and (min-width: 48em) {
-  .logo {
-    font-size: 50pt;
-  }
-}
-
-/* lg */
-@media screen and (min-width: 64em) {
-  .logo {
-    font-size: 55pt;
-  }
-}
-
-/* xl */
-@media screen and (min-width: 80em) {
-  .logo {
-    font-size: 65pt;
-  }
 }
