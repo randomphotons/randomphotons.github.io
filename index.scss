@@ -1,11 +1,12 @@
 ---
 ---
-/* Styles specific to the index.html page */
+// Styles specific to the index.html page
 @charset "UTF-8";
 
 @import "logo-light";
+@import "mixins";
 
-/* ensure the height scales correctly */
+// Ensure the height scales correctly
 body,
 html,
 main {
@@ -16,7 +17,6 @@ main {
 
 .logo {
   text-align: center;
-  font-size: 32pt;
   padding: 0;
   margin: 0;
   position: absolute;
@@ -25,32 +25,23 @@ main {
   max-width: 1000px;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1000;
-}
 
-/* sm */
-@media screen and (min-width: 35.5em) {
-  .logo {
+  font-size: 32pt;
+
+  @include media-screen-width (sm) {
     font-size: 40pt;
   }
-}
 
-/* md */
-@media screen and (min-width: 48em) {
-  .logo {
+  @include media-screen-width (md) {
     font-size: 50pt;
   }
-}
 
-/* lg */
-@media screen and (min-width: 64em) {
-  .logo {
+  @include media-screen-width (lg) {
     font-size: 55pt;
   }
-}
 
-/* xl */
-@media screen and (min-width: 80em) {
-  .logo {
+  /* xl */
+  @include media-screen-width (xl) {
     font-size: 65pt;
   }
 }

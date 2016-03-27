@@ -1,0 +1,22 @@
+// purecss.io breakpoints
+$purecss-grid-sizes: (
+  sm:    35.5em,
+  md:    48em,
+  lg:    64em,
+  xl:    80em,
+);
+
+// Allows easy setting styles for specific screen widths.
+@mixin media-screen-width($size) {
+  @media only screen and (min-width: screen-width($size)) { @content; }
+}
+
+// Returns the width for the specified screen size.
+@function screen-width($size) {
+  @if map-has-key($purecss-grid-sizes, $size) {
+    @return map-get($purecss-grid-sizes, $size);
+  }
+  @else {
+    @error "The size must be one of #{join(map-keys($purecss-grid-sizes), (), comma)} but was #{$size}.";
+  }
+}
