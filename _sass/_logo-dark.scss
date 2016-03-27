@@ -3,10 +3,8 @@
 @import "logo";
 
 .logo.logo-dark {
-  .random {
-    color: black;
-  }
-  .photons {
+  color: black;
+  em {
     color: $logo-secondary-color;
   }
 }
