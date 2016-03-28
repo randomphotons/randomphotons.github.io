@@ -10,7 +10,7 @@ $menu-sizes: (
 );
 
 // the screen size at which the wide menu will display.
-$wide-menu: lg;
+$wide-menu: md;
 
 @function menu-height($size) {
   @return map-get(checked-map-get(size, $menu-sizes, $size), height);
@@ -103,7 +103,7 @@ $wide-menu: lg;
   position: absolute;
   width: 100%;
   border-top: 1px solid #eee;
-  @include transition (border-top 0.5s);
+  @include transition (all 1s);
   background-color: #808080\9;
   z-index: 100;
   .pure-menu-link {
