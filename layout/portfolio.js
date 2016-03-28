@@ -41,7 +41,4 @@ $( function() {
     $(this).toggleClass("x");
     return false;
   });
-
-  // Sticky Nav (filter bar sticks to top when reaches top)
-  $('.filter-bar').scrollToFixed();
 });
