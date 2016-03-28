@@ -3,6 +3,7 @@ name: social
 tags:
   - about
   - social
+hidetags: true
 sort: 1
 ---
   <ul class="social">

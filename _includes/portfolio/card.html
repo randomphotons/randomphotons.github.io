@@ -17,6 +17,7 @@
       {{ link.content }}
     </div>
 
+    {% if link.hidetags == null and link.tags %}
     <div class="card-footer">
       <ul class="list-inline">
         {% for each in link.tags %}
@@ -24,6 +25,7 @@
         {% endfor %}
       </ul>
     </div>
+    {% endif %}
   </div>
 </div>
 <!-- card-block div -->
