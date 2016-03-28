@@ -1,5 +1,6 @@
 <div class="eachpost {% for each in link.tags %}{{each}} {% endfor %}">
 
+  {% if link.image %}
   <div class="card-image">
     {% if link.href %}
       <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}"/></a>
@@ -7,10 +8,13 @@
       <img src="{{ site.baseurl }}/images/{{ link.image }}"/>
     {% endif %}
   </div>
+  {% endif %}
 
+  {% if !link.header %}
   <div class="card-header">
-    <a href="{{ link.href }}" target="_blank">{{ link.header | markdownify }}</a>
+    {% if link.href %}<a href="{{ link.href }}" target="_blank">{% endif %}{{ link.header | markdownify }}{% if link.href %}</a>{% endif %}
   </div>
+  {% endif %}
 
   <div class="card-body">
     {{ link.content }}

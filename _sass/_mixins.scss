@@ -13,10 +13,17 @@ $purecss-grid-sizes: (
 
 // Returns the width for the specified screen size.
 @function screen-width($size) {
-  @if map-has-key($purecss-grid-sizes, $size) {
-    @return map-get($purecss-grid-sizes, $size);
+  @return checked-map-get(size, $purecss-grid-sizes, $size);
+}
+
+@function checked-map-get($name, $map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
   }
-  @else {
-    @error "The size must be one of #{join(map-keys($purecss-grid-sizes), (), comma)} but was #{$size}.";
-  }
+  @error key-does-not-exist(size, $map, $key);
+}
+
+
+@function key-does-not-exist($name, $map, $key) {
+  @return "The #{$name} must be one of #{join(map-keys($map), (), comma)} but was #{$key}.";
 }

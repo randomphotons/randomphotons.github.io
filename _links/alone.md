@@ -9,7 +9,7 @@ tags:
   - editor
   - nasa
   - iss
-sort: 1
+sort: 10
 ---
 A series of time-lapse sequences shot from the International Space Station, this has gone on to be used by astronauts in presentations and has over 16 million views.
 

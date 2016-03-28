@@ -6,6 +6,6 @@ header: David Peterson
 tags:
   - about
   - email
-sort: 99
+sort: 90
 ---
 Download David's details into your contact app [here]({{ page.image_href }}).

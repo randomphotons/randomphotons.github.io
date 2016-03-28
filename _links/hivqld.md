@@ -9,6 +9,6 @@ tags:
   - editor
   - hoodlum
   - hivfq
-sort: 4
+sort: 40
 ---
 A series of three short documentary films raising awareness about HIV prevention. Produced for [HIV Foundation Queensland](http://endhiv.qld.gov.au/), I served as an assitant editor for [Hoodlum](http://www.hoodlum.com.au/).
