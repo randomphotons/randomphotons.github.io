@@ -48,11 +48,12 @@ $card-gutter: 15px;
 .card-header a,
 .card-header a:hover,
 .card-header a:visited {
-  color: $orange;
+  color: $emphasis-color;
   padding: 0;
   line-height: 1.2rem;
   font-size: 1.2rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .card-body {

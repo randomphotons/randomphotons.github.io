@@ -3,7 +3,7 @@
     {% if link.image %}
     <div class="card-image">
       {% if link.href %}
-      <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}" /></a>
+      <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}" alt="{{ link.header }}" /></a>
       {% else %}
       <img src="{{ site.baseurl }}/images/{{ link.image }}" /> {% endif %}
     </div>
