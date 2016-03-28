@@ -110,10 +110,13 @@ $wide-menu: lg;
     @include transform (translateX(0));
     @include transition (all 0.5s);
   }
-  &.custom-menu-tucked .pure-menu-link {
-    @include transform (translateX(-140px));
-    opacity: 0;
-    opacity: 1\9;
+  &.custom-menu-tucked {
+    border-top: none;
+    .pure-menu-link {
+      @include transform (translateX(-140px));
+      opacity: 0;
+      opacity: 1\9;
+    }
   }
   // on a large screen...
   @include media-screen-width ($wide-menu) {
@@ -137,9 +140,9 @@ $wide-menu: lg;
 }
 
 .custom-menu-brand {
-  padding: 0;
+  padding: 0 15px;
   display: block;
-  text-align: center;
+  text-align: left;
   //position: relative;
   @include media-screen-width ($wide-menu) {
     padding: 0 1em;
