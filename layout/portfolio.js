@@ -33,7 +33,13 @@ $( function() {
     // Highlight current subnav link
     $('a.js-filter').removeClass('current');
     $(this).addClass('current');
-
+    return false;
+  });
+  
+  $("#toggle").click(function(){
+    $("#tuckedMenu").toggleClass("custom-menu-tucked");
+    $(this).toggleClass("x");
+    return false;
   });
 
   // Sticky Nav (filter bar sticks to top when reaches top)

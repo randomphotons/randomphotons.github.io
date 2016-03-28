@@ -1,4 +1,17 @@
-$menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em));
+// The list of screen sizes and the related height and font-width
+$menu-sizes: ( 
+  // default sizes
+  '*': (height: 45px, font: 1.5em), 
+  sm: (height: 45px, font: 1.5em),
+  md: (height: 50px, font: 1.75em),
+  // large screen
+  lg: (height: 50px, font: 1.75em),
+  xl: (height: 55px, font: 2em)
+);
+
+// the screen size at which the wide menu will display.
+$wide-menu: lg;
+
 @function menu-height($size) {
   @return map-get(checked-map-get(size, $menu-sizes, $size), height);
 }
@@ -19,7 +32,15 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
 
 .custom-menu-wrapper {
   white-space: nowrap;
-  //position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 50;
+  @include media-screen-width ($wide-menu) {
+    background-color: black;
+  }
 }
 
 .custom-menu {
@@ -31,15 +52,21 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
   .logo {
     font-size: menu-font("*");
   }
-  .pure-menu-link,
-  .pure-menu-heading {
+  .pure-menu-link {
     color: white;
+    &.current {
+      text-decoration: underline;
+    }
   }
-  .pure-menu-link:hover,
-  .pure-menu-heading:hover {
+  .pure-menu-link:hover {
     background-color: transparent;
   }
-  @include media-menu-height (lg) {
+  @include media-menu-height(sm);
+  @include media-menu-height(md);
+  @include media-menu-height(lg);
+  @include media-menu-height(xl);
+  // When viewing the full size menu
+  @include media-screen-width ($wide-menu) {
     display: inline-block;
   }
 }
@@ -48,18 +75,27 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
   //position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
+  background: black;
 }
 
-.pure-menu-horizontal.custom-menu-tucked {
-  z-index: -1;
-  top: menu-height("*");
-  position: absolute;
-  overflow: hidden;
-  @include media-screen-width (lg) {
-    top: menu-height(lg);
-    z-index: auto;
-    position: inherit;
-    overflow: auto;
+.pure-menu-horizontal {
+  &.pure-menu-scrollable {
+    padding: 0px;
+  }
+  .pure-menu-list {
+    padding-top: 5px;
+  }
+  .custom-menu-tucked {
+    z-index: -1;
+    top: menu-height("*");
+    position: absolute;
+    overflow: hidden;
+    @include media-screen-width ($wide-menu) {
+      top: menu-height($wide-menu);
+      z-index: auto;
+      position: inherit;
+      overflow: auto;
+    }
   }
 }
 
@@ -80,16 +116,22 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
     opacity: 1\9;
   }
   // on a large screen...
-  @include media-screen-width (lg) {
-    position: inherit;
-    border-top: none;
-    background-color: inherit;
-    z-index: auto;
-    .pure-menu-link,
-    &.custom-menu-tucked .pure-menu-link {
-      opacity: 1;
-      @include transform (translateX(0));
-      @include transition (all 0.5s);
+  @include media-screen-width ($wide-menu) {
+    &,
+    &.custom-menu-tucked {
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-top: none;
+      background-color: inherit;
+      z-index: auto;
+      text-align: right;
+      width: auto;
+      .pure-menu-link {
+        opacity: 1;
+        @include transform (translateX(0));
+        @include transition (all 0.5s);
+      }
     }
   }
 }
@@ -99,7 +141,7 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
   display: block;
   text-align: center;
   //position: relative;
-  @include media-screen-width (lg) {
+  @include media-screen-width ($wide-menu) {
     padding: 0 1em;
   }
 }
@@ -134,21 +176,36 @@ $menu-sizes: ( '*': (height: 45px, font: 1.5em), lg: (height: 50px, font: 1.75em
     @include transform (rotate(-45deg));
   }
   // When on a large screen...
-  @include media-screen-width (lg) {
+  @include media-screen-width ($wide-menu) {
     display: none;
   }
 }
 
 .custom-menu-screen {
   background-color: rgba(0, 0, 0, 0.5);
-  @include transition (all 0.5s);
-  height: 3em;
-  width: 70em;
-  position: absolute;
-  top: 0;
-  z-index: -1;
+  @include transition (max-height 0.5s);
+  max-height: 5em;
+  //height: 3em;
+  //width: 100%;
+  //position: absolute;
+  //top: 0;
+  //z-index: -1;
+  @include media-screen-width ($wide-menu) {
+    width: auto;
+  }
 }
 
-.custom-menu-tucked .custom-menu-screen {
-  @include transform (translateY(-44px));
+.custom-menu-tucked.custom-menu-screen {
+  max-height: 0;
+  @include transition (max-height 0.5s);
+  @include media-screen-width ($wide-menu) {
+    max-height: 5em;
+  }
+}
+
+main {
+  margin-top: menu-height("*");
+  @include media-screen-width ($wide-menu) {
+    margin-top: menu-height($wide-menu);
+  }
 }
