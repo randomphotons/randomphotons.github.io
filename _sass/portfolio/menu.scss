@@ -144,7 +144,11 @@ $wide-menu: md;
   padding: 0 15px;
   display: block;
   text-align: left;
-  //position: relative;
+  &, 
+  &:hover, 
+  &:visited {
+    text-decoration: none;
+  }
   @include media-screen-width ($wide-menu) {
     padding: 0 1em;
   }
