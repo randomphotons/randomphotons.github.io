@@ -5,7 +5,7 @@
 <div id="cards">
   <div class="card-sizer"></div>
   
-  {% assign links = site.links | sort: 'sort' %}
+  {% assign links = site.links | sort: 'sort' | reverse %}
   <!-- Highlight the current redirect, if relevant -->
   {% if page.redirect %}
   {% for link in links %}
@@ -17,8 +17,10 @@
   
   <!-- Main Tiles -->
   {% for link in links %}
+    {% if page.disabled == nil %}
     {% if page.redirect == nil or link.name != page.redirect %}
       {% include portfolio/card.html %}
+    {% endif %}
     {% endif %}
   {% endfor %}
   
