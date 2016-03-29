@@ -4,7 +4,7 @@ tags:
   - about
   - social
 hidetags: true
-sort: 10000
+sort: 1000000
 ---
   <ul class="social">
     <li class="social"><a href="https://youtube.com/bitmeizer" target="_blank"><i class="fa fa-youtube-square" title="YouTube"></i></a></li>
