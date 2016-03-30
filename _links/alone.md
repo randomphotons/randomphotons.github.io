@@ -11,7 +11,7 @@ tags:
   - iss
 sort: 201110
 ---
-A series of time-lapse sequences shot from the International Space Station, this has gone on to be used by astronauts in presentations and has over 16 million views.
+With spectacular views of Earth as seen from the International Space Station this has been viewed over 16 million times since its release in November 2011.
 
 Featured on NASA's [Astronomy Picture of the Day](http://apod.nasa.gov/apod/ap120305.html).
 
