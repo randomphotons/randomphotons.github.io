@@ -5,6 +5,7 @@ href: https://www.griffith.edu.au/visual-creative-arts/queensland-college-art/st
 header: _Griffith Film School_
 tags:
   - education
+  - gfs
   - film
 sort: 201211
 ---

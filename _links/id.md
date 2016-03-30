@@ -8,4 +8,4 @@ tags:
   - email
 sort: 20
 ---
-Download David's details into your contact app [here]({{ page.image_href }}).
+Download David's details into your contact app [here]({{ page.image_href }}), or just [email him](mailto:productions@randomphotons.com).
