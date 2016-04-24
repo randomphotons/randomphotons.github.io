@@ -3,6 +3,7 @@ name: intransit
 image: intransit.jpg
 href: http://vimeo.com/randomphotons/intransit
 header: _In Transit_ (2013)
+group: film
 tags:
   - film
   - producer
