@@ -3,6 +3,7 @@ name: id
 image: contact.jpg
 href: https://randomphotons.com/go/david_peterson.vcf
 header: David Peterson
+group: about
 tags:
   - about
   - email

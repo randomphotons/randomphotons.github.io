@@ -3,6 +3,7 @@ name: gfs
 image: gfs.jpg
 href: https://www.griffith.edu.au/visual-creative-arts/queensland-college-art/studios/griffith-film-school
 header: _Griffith Film School_
+group: film
 tags:
   - education
   - gfs
