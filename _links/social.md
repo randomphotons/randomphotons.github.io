@@ -1,6 +1,5 @@
 ---
 name: social
-group: about
 tags:
   - about
   - social

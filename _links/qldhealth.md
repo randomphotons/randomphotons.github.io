@@ -3,7 +3,6 @@ name: qldhealth
 image: qldhealth.jpg
 href: https://youtu.be/H4nwM--Cmrs
 header: _There's Something I Want To Tell You_ (2014)
-group: film
 tags:
   - film
   - doco

@@ -1,6 +1,5 @@
 ---
 name: license
-group: about
 tags:
   - about
   - license

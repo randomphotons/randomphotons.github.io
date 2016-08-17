@@ -1,9 +1,6 @@
 {% include portfolio/filter-focus.html %}
 {% include portfolio/loading.html %}
 
-{% assign linkgroups = site.groups %}
-{% if page.groups %}{% assign linkgroups = page.groups %}{% endif %}
-
 <div id="cards-wrapper">
 <div id="cards">
   <div class="card-sizer"></div>
@@ -20,11 +17,9 @@
   
   <!-- Main Tiles -->
   {% for link in links %}
-    {% if linkgroups contains link.group %}
-    {% if link.disabled == nil %}
+    {% if page.disabled == nil %}
     {% if page.redirect == nil or link.name != page.redirect %}
       {% include portfolio/card.html %}
-    {% endif %}
     {% endif %}
     {% endif %}
   {% endfor %}
