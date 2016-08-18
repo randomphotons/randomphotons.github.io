@@ -1,5 +1,6 @@
 ---
 name: copyright
+group: about
 tags:
   - about
 hidetags: true
