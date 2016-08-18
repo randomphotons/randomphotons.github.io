@@ -5,7 +5,7 @@
 <div id="cards">
   <div class="card-sizer"></div>
   
-  {% assign links = site.links | sort: 'sort' | reverse %}
+  {% assign links = site.links | sort: 'sort_order' | reverse %}
   <!-- Highlight the current redirect, if relevant -->
   {% if page.redirect %}
   {% for link in links %}

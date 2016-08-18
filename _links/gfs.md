@@ -7,6 +7,6 @@ tags:
   - education
   - gfs
   - film
-sort: 201211
+sort_order: 201211
 ---
 Completed a _Bachelor of Film & Screen Media_ at Griffith University in 2012.

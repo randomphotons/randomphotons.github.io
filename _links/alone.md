@@ -9,7 +9,7 @@ tags:
   - editor
   - nasa
   - iss
-sort: 201110
+sort_order: 201110
 ---
 With spectacular vistas of Earth as seen from the International Space Station, this has been viewed over 16 million times since its release in November 2011.
 
