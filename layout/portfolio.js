@@ -3,7 +3,6 @@ $( function() {
   var $container = $('#cards');
 
   $container.imagesLoaded( function(){
-    //$container.fadeIn(1000).isotope({
     $('#loading').hide();
     $container.animate({opacity:1},1000).isotope({
       layoutMode: 'packery',
@@ -13,14 +12,22 @@ $( function() {
       },
       percentPosition: true
     });
+    
+    // reload layout after font load
+    var font = new FontFaceObserver('FortAwesome');
+    font.load().then(function () {
+      $container.isotope('layout');
+    }, function () {
+      console.log('FortAwesome is not available');
+    });
   });
-
+  
   // Isotope - filter items on click
   $('a.js-filter').on( 'click', function() {
 
     //Sort cards
     var filterValue = $(this).attr('data-filter');
-    $('#cards').isotope({ filter: filterValue });
+    $container.isotope({ filter: filterValue });
 
     //Scroll back to filter bar if user if below bar
     if ($(window).scrollTop() > 250) {
