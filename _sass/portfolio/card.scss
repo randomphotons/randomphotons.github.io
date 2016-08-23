@@ -70,6 +70,10 @@ $card-gutter: 15px;
     color: #b0b0b0;
     text-decoration: none;
   }
+  &.current {
+    text-decoration: underline;
+    font-weight: bold;
+  }
 }
 
 ul.list-inline {
