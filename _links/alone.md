@@ -6,10 +6,10 @@ header: _All Alone in the Night_ (2011)
 group: film
 tags:
   - film
+  - doco
   - producer
   - editor
-  - nasa
-  - iss
+  - space
 sort_order: 201110
 ---
 With spectacular vistas of Earth as seen from the International Space Station, this has been viewed over 16 million times since its release in November 2011.
