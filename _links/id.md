@@ -5,6 +5,7 @@ header: Contact Details
 group: about
 tags:
   - about
+  - contact
   - email
 sort_order: 20
 ---
