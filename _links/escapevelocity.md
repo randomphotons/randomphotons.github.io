@@ -1,5 +1,5 @@
 ---
-name: escapevelocity
+name: escape
 image: escapevelocity.jpg
 href: https://randomphotons.com/escapevelocity.html
 header: _Escape Velocity_ (2016)
