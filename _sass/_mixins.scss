@@ -1,5 +1,6 @@
 // purecss.io breakpoints
 $purecss-grid-sizes: (
+  '*':   0em,
   sm:    35.5em,
   md:    48em,
   lg:    64em,
@@ -26,4 +27,36 @@ $purecss-grid-sizes: (
 
 @function key-does-not-exist($name, $map, $key) {
   @return "The #{$name} must be one of #{join(map-keys($map), (), comma)} but was #{$key}.";
+}
+
+// The list of screen sizes and the related height and font-width
+$menu-sizes: ( 
+  // default sizes
+  '*': (height: 45px, font: 1.5em), 
+  sm: (height: 45px, font: 1.5em),
+  md: (height: 50px, font: 1.75em),
+  // large screen
+  lg: (height: 50px, font: 1.75em),
+  xl: (height: 55px, font: 2em)
+);
+
+// the screen size at which the wide menu will display.
+$wide-menu: md;
+
+@function menu-height($size) {
+  @return map-get(checked-map-get(size, $menu-sizes, $size), height);
+}
+
+@function menu-font($size) {
+  @return map-get(checked-map-get(size, $menu-sizes, $size), font);
+}
+
+@mixin media-menu-height($size) {
+  @include media-screen-width ($size) {
+    height: menu-height($size);
+    .logo {
+      font-size: menu-font($size);
+    }
+    @content;
+  }
 }
