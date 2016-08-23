@@ -21,7 +21,7 @@
     <div class="card-footer">
       <ul class="list-inline">
         {% for each in link.tags %}
-          <li><small><a class="card-tags js-filter" data-filter=".{{ each }}">#{{ each }}</a></small></li>
+          <li><small><a class="card-tags js-filter" href="#{{ each }}">#{{ each }}</a></small></li>
         {% endfor %}
       </ul>
     </div>

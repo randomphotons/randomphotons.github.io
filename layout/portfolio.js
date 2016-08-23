@@ -20,14 +20,33 @@ $( function() {
     }, function () {
       console.log('FortAwesome is not available');
     });
+    
+    
+    function onHashChange() {
+      var matches = location.hash.match( /#([^&]+)/i );
+      var hashFilter = matches && decodeURIComponent(matches[1]);
+      doFilter(hashFilter);
+    }
+
+    // Get notifications
+    $(window).on( 'hashchange', onHashChange );
+    // Update the filter on load
+    onHashChange();
   });
   
-  // Isotope - filter items on click
-  $('a.js-filter').on( 'click', function() {
+  function isAll(filterValue) {
+    return !filterValue || filterValue == '*' || filterValue == '';
+  }
 
-    //Sort cards
-    var filterValue = $(this).attr('data-filter');
-    $container.isotope({ filter: filterValue });
+  function doFilter(filterValue) {
+    var filter = isAll(filterValue) ? '*' : '.' + filterValue;
+    $container.isotope({ filter: filter });
+
+    var href = "#" + filterValue;
+    $('a.js-filter').removeClass('current');
+    // Highlight current subnav link
+    $('a.js-filter[href="'+href+ '"]').addClass('current');
+    return true;
 
     //Scroll back to filter bar if user if below bar
     if ($(window).scrollTop() > 250) {
@@ -36,16 +55,12 @@ $( function() {
           scrollTop: $('#filter-focus').offset().top
           }, "fast");
     }
+  }
 
-    // Highlight current subnav link
-    $('a.js-filter').removeClass('current');
-    $(this).addClass('current');
-    return false;
-  });
-  
   $("#toggle").click(function(){
     $("#tuckedMenu").toggleClass("custom-menu-tucked");
     $(this).toggleClass("x");
     return false;
   });
 });
+
