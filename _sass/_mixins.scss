@@ -7,14 +7,27 @@ $purecss-grid-sizes: (
   xl:    80em,
 );
 
-// Allows easy setting styles for specific screen widths.
-@mixin media-screen-width($size) {
-  @media only screen and (min-width: screen-width($size)) { @content; }
-}
-
 // Returns the width for the specified screen size.
 @function screen-width($size) {
   @return checked-map-get(size, $purecss-grid-sizes, $size);
+}
+
+// Allows easy setting styles for specific screen widths.
+// @param orientation: may be 'any', 'portrait', or 'landscape'
+@mixin media-screen-width($size, $orientation: any) {
+  @media only screen and (min-width: screen-width($size)) {
+    @if $orientation == portrait {
+      @media only screen and (min-height: screen-width($size)) {
+        @content;
+      }
+    } @else if $orientation == landscape {
+      @media only screen and (max-height: screen-width($size)) {
+        @content;
+      }
+    } @else {
+      @content; 
+    }
+  }
 }
 
 @function checked-map-get($name, $map, $key) {

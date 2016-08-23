@@ -26,8 +26,8 @@ $player-sizes: (
   @return map-get(checked-map-get(size, $player-sizes, $size), height) * 640/390;
 }
 
-@mixin player-position($size) {
-  @include media-screen-width ($size) {
+@mixin player-position($size, $orientation: any) {
+  @include media-screen-width ($size, $orientation) {
     top: menu-height($size);
     height: player-height($size);
     position: fixed;
@@ -45,8 +45,8 @@ $player-sizes: (
   }
 }
 
-@mixin content-position($size) {
-  @include media-screen-width ($size) {
+@mixin content-position($size, $orientation: any) {
+  @include media-screen-width ($size, $orientation) {
     margin-top: player-height($size) + menu-height($size);
     @content;
   }
@@ -67,7 +67,7 @@ main {
   margin: 0;
   background: $background;
   
-  @include player-position(sm);
+  @include player-position(sm, portrait);
   @include player-position(md);
   @include player-position(lg);
   @include player-position(xl);
@@ -87,7 +87,7 @@ main {
   width: 100%;
   overflow-y: auto;
   
-  @include content-position(sm);
+  @include content-position(sm, portrait);
   @include content-position(md);
   @include content-position(lg);
   @include content-position(xl);
