@@ -3,7 +3,6 @@ $( function() {
   var $container = $('#cards');
 
   $container.imagesLoaded( function(){
-    //$container.fadeIn(1000).isotope({
     $('#loading').hide();
     $container.animate({opacity:1},1000).isotope({
       layoutMode: 'packery',
