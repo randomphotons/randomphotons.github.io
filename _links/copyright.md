@@ -6,4 +6,4 @@ tags:
 hidetags: true
 sort_order: 0
 ---
-<div>&copy; Random Photons 2016</div>
+<div>&copy; David Peterson 2016</div>
