@@ -1,14 +1,14 @@
 ---
-layout: default
-style: escapevelocity.css
+layout: portfolio
+style: css/escapevelocity.css
 title: Escape Velocity | randomphotons.com
 ---
 
-<header>
+<div id='player-wrapper'>
   <div id='player'></div>
-</header>
+</div>
 
-<main>
+<div id='content'>
   <div class='title'>
     <h1>Escape Velocity</h1>
     <summary>A Quick History of Space Exploration</summary>
@@ -347,7 +347,7 @@ title: Escape Velocity | randomphotons.com
       <p class="c0"><span class="c1">Credit: NASA, ESA, Harald Ebeling(University of Hawaii at Manoa) &amp; Jean-Paul Kneib (LAM)</span></p>
     </div>
   </div>
-</main>
+</div>
 
 <script>
   // 2. This code loads the IFrame Player API code asynchronously.
@@ -363,9 +363,10 @@ title: Escape Velocity | randomphotons.com
 
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-      height: '390'
-      , width: '640'
-      , videoId: 'PLcE3AI9wwE'
+      videoId: 'PLcE3AI9wwE'
+      , height: '100%'
+      , width: '100%'
+      , playerVars: { 'showinfo': 0, 'rel': 0 }
       , events: {
         //'onReady': onPlayerReady //,
           //'onStateChange': onPlayerStateChange
