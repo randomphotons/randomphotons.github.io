@@ -11,6 +11,7 @@ safe: true
 
 collections:
   - links
+  - sources
 
 #Misc Settings
 google_analytics_id: UA-484023-10
