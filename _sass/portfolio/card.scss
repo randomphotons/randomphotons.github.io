@@ -1,8 +1,6 @@
 // Cards
 @import "variables";
 
-$card-gutter: 15px;
-
 #cards-wrapper {
   padding: $card-gutter 0 0 $card-gutter;
 }
@@ -32,16 +30,17 @@ $card-gutter: 15px;
 }
 
 .card {
-  background-color: #ffffff;
-  padding: 15px;
+  background-color: $card-background;
+  color: $card-text-color;
+  padding: $card-gutter;
   margin: 0;
-  border-radius: 3px;
-  box-shadow: 0px 0px 10px #888;
+  border-radius: $card-radius;
+  box-shadow: 0px 0px $card-shadow-size $card-shadow-color;
 }
 
 .card-image img {
   width: 100%;
-  border-radius: 3px;
+  border-radius: $card-radius;
 }
 
 .card-header,
@@ -54,6 +53,11 @@ $card-gutter: 15px;
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 0;
+}
+
+div.card-header {
+  margin-bottom: $card-gutter;
 }
 
 .card-body {
@@ -84,10 +88,5 @@ ul.list-inline {
 
 ul.list-inline > li {
   display: inline-block;
-  padding-right: 5px;
-}
-
-ul.list-inline > li {
-  display: inline-block;
-  padding-right: 5px;
+  padding-right: $tag-spacing;
 }
