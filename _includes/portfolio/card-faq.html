@@ -1,0 +1,31 @@
+<div class="card-block {% for each in link.tags %}{{each}} {% endfor %}">
+  <div class="card">
+    {% if link.image %}
+    <div class="card-image">
+      {% if link.href %}
+      <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}" alt="{{ link.header }}" /></a>
+      {% else %}
+      <img src="{{ site.baseurl }}/images/{{ link.image }}" /> {% endif %}
+    </div>
+    {% endif %} {% if !link.header %}
+    <div class="card-header">
+      {% if link.href %}<a href="{{ link.href }}" target="_blank">{% endif %}{{ link.header | markdownify }}{% if link.href %}</a>{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="card-body">
+      {{ link.content }}
+    </div>
+
+    {% if link.hidetags == null and link.tags %}
+    <div class="card-footer">
+      <ul class="list-inline">
+        {% for each in link.tags %}
+          <li><small><a class="card-tags js-filter" href="#{{ each }}">#{{ each }}</a></small></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+<!-- card-block div -->
