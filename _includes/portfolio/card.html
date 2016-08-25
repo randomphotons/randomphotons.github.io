@@ -1,26 +1,47 @@
-<div class="card-block {% for each in link.tags %}{{each}} {% endfor %}">
+<div class="card-block {% for each in item.tags %}{{each}} {% endfor %}">
   <div class="card">
-    {% if link.image %}
+    {% if item.image %}
     <div class="card-image">
-      {% if link.href %}
-      <a href="{{ link.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ link.image }}" alt="{{ link.header }}" /></a>
+      {% if item.href %}
+      {% assign caption = item.caption | default: item.header | markdownify | strip_html | strip | escape_once %}
+      <a href="{{ item.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ item.image }}" alt="{{ caption }}" /></a>
       {% else %}
-      <img src="{{ site.baseurl }}/images/{{ link.image }}" /> {% endif %}
+      <img src="{{ site.baseurl }}/images/{{ item.image }}" /> {% endif %}
     </div>
-    {% endif %} {% if !link.header %}
+    {% endif %} {% if item.header %}
     <div class="card-header">
-      {% if link.href %}<a href="{{ link.href }}" target="_blank">{% endif %}{{ link.header | markdownify }}{% if link.href %}</a>{% endif %}
+      {% if item.href %}<a href="{{ item.href }}" target="_blank">{% endif %}{{ item.header | markdownify | remove: '<p>' | remove: '</p>' }}{% if item.href %}</a>{% endif %}
     </div>
     {% endif %}
 
     <div class="card-body">
-      {{ link.content }}
+      {{ item.content }}
     </div>
+    
+    {% if item.credits %}
+    <ul class="card-credits">
+    {% for credit in item.credits %}
+    <li class="card-credit">
+      {{ credit | markdownify | remove: '<p>' | remove: '</p>' }}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
 
-    {% if link.hidetags == null and link.tags %}
+    {% if item.timecodes %}
     <div class="card-footer">
       <ul class="list-inline">
-        {% for each in link.tags %}
+        {% for each in item.timecodes %}
+          <li><small><a class="card-tags card-timecode" onclick="return skipTo('{{ each }}')">{{ each }}</a></small></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if item.hidetags == null and item.tags %}
+    <div class="card-footer">
+      <ul class="list-inline">
+        {% for each in item.tags %}
           <li><small><a class="card-tags js-filter" href="#{{ each }}">#{{ each }}</a></small></li>
         {% endfor %}
       </ul>

@@ -85,18 +85,11 @@ main {
   text-align: center;
   width: 100%;
   overflow-y: auto;
-  //padding: $card-gutter 0 0 $card-gutter;
   
   @include content-position(sm, portrait);
   @include content-position(md);
   @include content-position(lg);
   @include content-position(xl);
-}
-
-#content .title {
-  summary {
-    margin-top: 0;
-  }
 }
 
 .credits {
@@ -111,43 +104,3 @@ main {
   }
 }
 
-a {
-  //color: white;
-  text-decoration: underline;
-
-  &[href=''] {
-    color: red;
-  }
-
-  &:hover {
-    color: whitesmoke;
-    text-decoration: underline;
-  }
-  &:visited {
-    //color: white;
-    &[href=''] {
-      color: red;
-    }
-  }
-  img {
-    text-decoration: none;
-    border: none;
-  }
-  img:hover {
-    opacity: 0.5;
-  }
-}
-
-.note {
-  margin-top: 10px;
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-
-  .title {
-    font-weight: bold;
-    font-style: italic;
-  }
-}
