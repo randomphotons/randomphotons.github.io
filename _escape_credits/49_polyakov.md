@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bF0meW
-title: "Cosmonaut Polyakov Watches Discovery&rsquo;s Rendezvous With Mir"
+header: "Cosmonaut Polyakov Watches Discovery&rsquo;s Rendezvous With Mir"
 credits:
   - "Credit: NASA"
 timecodes:

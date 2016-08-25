@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2b2TRyz
-title: "Hayabusa Spacecraft Reentry"
+header: "Hayabusa Spacecraft Reentry"
 credits:
   - "Credit: NASA/JAXA"
 timecodes:

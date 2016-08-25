@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bpL0Xh
-title: "Mercury Outgoing Hemisphere"
+header: "Mercury Outgoing Hemisphere"
 credits:
   - "Credit: NASA/JPL/Northwestern University"
 timecodes:

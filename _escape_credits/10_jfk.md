@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "JFK Moon Speech to Congress"
+header: "JFK Moon Speech to Congress"
 credits:
   - "Credit: NASA"
 timecodes:

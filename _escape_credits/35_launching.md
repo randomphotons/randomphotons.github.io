@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2aZh9nx
-title: "Launching Our Dreams: A Shuttle Retrospective"
+header: "Launching Our Dreams: A Shuttle Retrospective"
 credits:
   - "Credit: NASA"
 timecodes:

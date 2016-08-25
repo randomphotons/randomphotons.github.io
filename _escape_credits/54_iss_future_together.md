@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bpKJTX
-title: "The International Space Station: Together is the Future"
+header: "The International Space Station: Together is the Future"
 credits:
   - "Credit: NASA, supplied by [archive.org](https://archive.org)"
 timecodes:

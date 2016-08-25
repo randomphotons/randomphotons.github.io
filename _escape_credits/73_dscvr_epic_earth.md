@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2b2TuEe
-title: "DSCOVR::EPIC::Lunar Transit"
+header: "DSCOVR::EPIC::Lunar Transit"
 credits:
   - "Credit: NASA/EPIC"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2aZgP86
-title: "NASA - Taking the Lid Off Kepler"
+header: "NASA - Taking the Lid Off Kepler"
 credits:
   - "Credit: NASA/Ames/JPL-Caltech"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2aTmTn0
-title: "Uranus outgoing"
+header: "Uranus outgoing"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "Gemini 4 Spacewalk - Ed White"
+header: "Gemini 4 Spacewalk - Ed White"
 credits:
   - "Credit: NASA"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2aXR1ZR
-title: "NASA&rsquo;s Documentary Film: Hubble25"
+header: "NASA&rsquo;s Documentary Film: Hubble25"
 credits:
   - "Credit: NASA"
 timecodes:

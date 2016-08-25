@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwpW1D
-title: "Artist&rsquo;s impression of Pioneer 10 at Jupiter"
+header: "Artist&rsquo;s impression of Pioneer 10 at Jupiter"
 credits:
   - "Credit: NASA/Ames Research Center"
 timecodes:

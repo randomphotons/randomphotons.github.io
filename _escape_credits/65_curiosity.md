@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bb8dyu
-title: "Twelve Months in Two Minutes; Curiosity&rsquo;s First Year on Mars"
+header: "Twelve Months in Two Minutes; Curiosity&rsquo;s First Year on Mars"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

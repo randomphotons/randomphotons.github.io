@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bb8EZM
-title: "Mission Highlights: SpaceX&rsquo;s Dragon Makes History"
+header: "Mission Highlights: SpaceX&rsquo;s Dragon Makes History"
 credits:
   - "Credit: SpaceX"
 timecodes:
