@@ -20,8 +20,8 @@ menu:
   <div id="cards-wrapper">
     <div id="cards">
       <div class="card-sizer"></div>
-        {% assign sources = site.sources %}
-        {% for source in sources %}
+        {% assign credits = site.escape_credits %}
+        {% for source in credits %}
           {% if source.disabled == nil %}
             {% include source/credit.html %}
           {% endif %}
