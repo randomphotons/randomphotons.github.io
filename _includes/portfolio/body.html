@@ -1,28 +1,28 @@
 {% include portfolio/filter-focus.html %}
 {% include portfolio/loading.html %}
 
-{% assign linkgroups = site.groups %}
-{% if page.groups %}{% assign linkgroups = page.groups %}{% endif %}
+{% assign itemgroups = site.groups %}
+{% if page.groups %}{% assign itemgroups = page.groups %}{% endif %}
 
 <div id="cards-wrapper">
 <div id="cards">
   <div class="card-sizer"></div>
   
-  {% assign links = site.links | sort: 'sort_order' | reverse %}
+  {% assign items = site.links | sort: 'sort_order' | reverse %}
   <!-- Highlight the current redirect, if relevant -->
   {% if page.redirect %}
-  {% for link in links %}
-    {% if link.name == page.redirect %}
+  {% for item in items %}
+    {% if item.name == page.redirect %}
       {% include portfolio/card.html %}
     {% endif %}
   {% endfor %}
   {% endif %}
   
   <!-- Main Tiles -->
-  {% for link in links %}
-    {% if linkgroups contains link.group %}
-    {% if link.disabled == nil %}
-    {% if page.redirect == nil or link.name != page.redirect %}
+  {% for item in items %}
+    {% if itemgroups contains item.group %}
+    {% if item.disabled == nil %}
+    {% if page.redirect == nil or item.name != page.redirect %}
       {% include portfolio/card.html %}
     {% endif %}
     {% endif %}
