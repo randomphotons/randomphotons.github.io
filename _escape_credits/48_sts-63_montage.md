@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "STS-63 Montage - Proximity"
+header: "STS-63 Montage - Proximity"
 credits:
   - "Credit: NASA"
 timecodes:

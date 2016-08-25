@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "1st Russian Space Station: Salyut 1"
+header: "1st Russian Space Station: Salyut 1"
 credits:
   - "Courtesy of NASA"
 timecodes:

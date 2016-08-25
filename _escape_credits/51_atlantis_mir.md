@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bEYlzh
-title: "Atlantis Docked to Mir"
+header: "Atlantis Docked to Mir"
 credits:
   - "Credit: NASA/Mir-Crew"
 timecodes:

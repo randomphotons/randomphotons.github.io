@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2aZin1R
-title: "Magellan: Venus False-Color Terrain"
+header: "Magellan: Venus False-Color Terrain"
 credits:
   - "Credit: NASA/Goddard Space Flight Center Scientific Visualization Studio"
 timecodes:

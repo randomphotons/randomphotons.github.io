@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bEYgvK
-title: "The Kepler Orrery III"
+header: "The Kepler Orrery III"
 credits:
   - "Credit: Daniel Fabrycky, University of Chicago"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bbaSIs
-title: "Uranus Globe"
+header: "Uranus Globe"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

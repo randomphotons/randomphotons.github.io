@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2aZhEOc
-title: "Pluto&rsquo;s Heart"
+header: "Pluto&rsquo;s Heart"
 credits:
   - "Credit: NASA/APL/SwRI"
 timecodes:

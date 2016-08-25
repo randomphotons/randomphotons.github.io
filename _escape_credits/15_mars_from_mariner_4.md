@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bEYp24
-title: "Mars from Mariner 4"
+header: "Mars from Mariner 4"
 credits:
   - "Credit: NASA"
 timecodes:

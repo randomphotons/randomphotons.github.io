@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2blVxW9
-title: "Pioneer 10 Saturn flyby"
+header: "Pioneer 10 Saturn flyby"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

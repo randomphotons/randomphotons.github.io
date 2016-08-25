@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bF0Cut
-title: "Sally Ride Anniversary"
+header: "Sally Ride Anniversary"
 credits:
   - "Credit: NASA"
 timecodes:

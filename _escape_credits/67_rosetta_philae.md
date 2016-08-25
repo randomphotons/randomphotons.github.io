@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwrvNf
-title: "Philae&rsquo;s descent: The director&rsquo;s cut"
+header: "Philae&rsquo;s descent: The director&rsquo;s cut"
 credits:
   - "Original descent sequence images: ESA/Rosetta/Philae/ROLIS/DLR, Stefano Mottola"
   - "Sequence interpolation and editing: Jakub Knapik, Platige Image"

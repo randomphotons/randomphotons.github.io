@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2aXU0Bf
-title: "Voyager Captures Sounds of Interstellar Space"
+header: "Voyager Captures Sounds of Interstellar Space"
 credits:
   - "Credit: NASA/JPL-Caltech/University of Iowa"
 timecodes:

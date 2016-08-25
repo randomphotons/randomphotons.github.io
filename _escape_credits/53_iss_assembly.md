@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwrw3x
-title: "International Space Station Assembly"
+header: "International Space Station Assembly"
 credits:
   - "Credit: NASA/Johnson Space Center"
 timecodes:

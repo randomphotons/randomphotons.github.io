@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bwVZiQ
-title: "Challenger Crew"
+header: "Challenger Crew"
 credits:
   - "Credit: NASA"
 timecodes:

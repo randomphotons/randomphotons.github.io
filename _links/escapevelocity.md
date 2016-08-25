@@ -3,6 +3,7 @@ name: escape
 image: escapevelocity.jpg
 href: /escapevelocity.html
 header: _Escape Velocity_ (2016)
+caption: Escape Velocity (2016)
 group: film
 tags:
   - film

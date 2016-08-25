@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "Valentina Tarishkova"
+header: "Valentina Tarishkova"
 credits:
   - "Courtesy of NASA"
 timecodes:

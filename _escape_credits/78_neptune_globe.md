@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2blIyVG
-title: "Neptune Globe"
+header: "Neptune Globe"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

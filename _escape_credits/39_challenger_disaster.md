@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2aZSh1L
-title: "Challenger Disaster"
+header: "Challenger Disaster"
 credits:
   - "Credit: NASA"
 timecodes:

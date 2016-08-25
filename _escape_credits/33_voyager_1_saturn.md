@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bwrPeA
-title: "Voyager 1 Saturn flyby"
+header: "Voyager 1 Saturn flyby"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

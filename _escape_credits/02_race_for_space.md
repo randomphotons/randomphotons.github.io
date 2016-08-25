@@ -1,7 +1,7 @@
 ---
 x-image: 02_race_for_space.jpg
 href: http://bit.ly/2aZhWEN
-title: Race for Space
+header: Race for Space
 credits:
   - Courtesy of A/V Geeks
 timecodes: 

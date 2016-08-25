@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2aYFXlj
-title: "Mercury, Gemini, Apollo HD Resource Reel"
+header: "Mercury, Gemini, Apollo HD Resource Reel"
 credits:
   - "Credit: NASA"
 timecodes:

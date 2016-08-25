@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwpH6C
-title: "Jupiter flyby from Pioneer 10"
+header: "Jupiter flyby from Pioneer 10"
 credits:
   - "Credit: NASA/Ames Research Center"
 timecodes:

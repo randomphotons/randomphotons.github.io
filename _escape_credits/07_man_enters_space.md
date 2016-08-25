@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bpK2KH
-title: "Man Enters Space, April 12 1961"
+header: "Man Enters Space, April 12 1961"
 credits:
   - "Courtesy of NASA, supplied by [archive.org](http://archive.org)"
 timecodes:
