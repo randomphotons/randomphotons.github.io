@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "Gagarin's Flight"
+header: "Gagarin's Flight"
 credits:
   - "Courtesy of NASA"
 timecodes:

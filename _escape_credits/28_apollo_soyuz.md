@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "Apollo-Soyuz 1975 Launch to Sequence Dock"
+header: "Apollo-Soyuz 1975 Launch to Sequence Dock"
 credits:
   - "Credit: NASA"
 timecodes:

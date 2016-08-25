@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bz2vaI
-title: "Soviet Rovers: Lunokhod panorama"
+header: "Soviet Rovers: Lunokhod panorama"
 credits:
   - "Courtesy of NASA"
 timecodes:

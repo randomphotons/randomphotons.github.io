@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bbaLwN
-title: "Telemetry from Sputnik I as it passed overhead"
+header: "Telemetry from Sputnik I as it passed overhead"
 credits:
   - "Credit: NASA"
 timecodes:

@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "1st Soviet EVA - Alexi Lonov"
+header: "1st Soviet EVA - Alexi Lonov"
 credits:
   - "Courtesy of NASA"
 timecodes:

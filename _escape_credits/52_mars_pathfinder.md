@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2bgS6wG
-title: "Mars Pathfinder"
+header: "Mars Pathfinder"
 credits:
   - "Credit: NASA/JPL"
 timecodes:

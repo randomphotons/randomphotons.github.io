@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwr7Oo
-title: "Apollo 11: That&rsquo;s one small step for a man&hellip;"
+header: "Apollo 11: That&rsquo;s one small step for a man&hellip;"
 credits:
   - "Credit: NASA"
 timecodes:

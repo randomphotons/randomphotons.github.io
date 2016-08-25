@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "Gemini 6 and 7 rendezvous"
+header: "Gemini 6 and 7 rendezvous"
 credits:
   - "Credit: NASA"
 timecodes:

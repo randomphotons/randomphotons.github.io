@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bbaPMT
-title: "STS-71 Approach/Dock/Group Shot"
+header: "STS-71 Approach/Dock/Group Shot"
 credits:
   - "Credit: NASA"
 timecodes:

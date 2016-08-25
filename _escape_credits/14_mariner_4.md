@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwWjOH
-title: "Mariner 4"
+header: "Mariner 4"
 credits:
   - "Credit: NASA"
 timecodes:

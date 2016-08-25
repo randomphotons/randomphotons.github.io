@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bEZcQB
-title: "Saturn In Natural Colors"
+header: "Saturn In Natural Colors"
 credits:
   - "Credit: Hubble Heritage Team (AURA/STScI/NASA/ESA)"
 timecodes:

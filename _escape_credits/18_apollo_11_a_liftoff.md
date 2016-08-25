@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwr59e
-title: "Apollo 11: We have a Lift-Off"
+header: "Apollo 11: We have a Lift-Off"
 credits:
   - "Credit: NASA"
 timecodes:

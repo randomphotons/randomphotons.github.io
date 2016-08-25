@@ -1,6 +1,6 @@
 ---
 href: http://bit.ly/2bwqPHl
-title: "The Bubble Nebula"
+header: "The Bubble Nebula"
 credits:
   - "Credit: NASA/ESA/Hubble Heritage Team"
 timecodes:

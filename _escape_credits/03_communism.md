@@ -1,7 +1,7 @@
 ---
 x-image: 03_communism.jpg
 href: http://bit.ly/2bz1JKN
-title: "Communism: Riddle, Mystery, Enigma (Episode 6, Reel 3)"
+header: "Communism: Riddle, Mystery, Enigma (Episode 6, Reel 3)"
 credits:
   - Courtesy of Prelinger Archives and A/V Geeks
 timecodes:

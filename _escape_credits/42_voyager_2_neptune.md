@@ -1,6 +1,6 @@
 ---
 href: http://go.nasa.gov/2aYHbN8
-title: "Voyager 2: First spacecraft at Neptune"
+header: "Voyager 2: First spacecraft at Neptune"
 credits:
   - "Credit: NASA/JPL"
 timecodes:
