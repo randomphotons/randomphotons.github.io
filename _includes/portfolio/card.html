@@ -3,7 +3,8 @@
     {% if item.image %}
     <div class="card-image">
       {% if item.href %}
-      <a href="{{ item.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ item.image }}" alt="{{ item.caption | default: item.header  }}" /></a>
+      {% assign caption = item.caption | default: item.header | markdownify | strip_html | strip | escape_once %}
+      <a href="{{ item.href }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ item.image }}" alt="{{ caption }}" /></a>
       {% else %}
       <img src="{{ site.baseurl }}/images/{{ item.image }}" /> {% endif %}
     </div>
