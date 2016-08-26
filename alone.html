@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-style: layout/escapevelocity.css
+style: layout/video.css
 title: All Alone In The Night | randomphotons.com
 menu:
   - { name: all, href: "/#*" }
@@ -15,17 +15,17 @@ menu:
 </div>
 
 <div id='content'>
-  <h1>All Alone In the Night</h1>
+  <h1>All Alone In The Night</h1>
   
   <h2>Frequently Asked Questions</h2>
 
   <div id="cards-wrapper">
     <div id="cards">
       <div class="card-sizer"></div>
-        {% assign sources = site.alone_faqs %}
-        {% for source in sources %}
-          {% if source.disabled == nil %}
-            {% include source/credit.html %}
+        {% assign items = site.alone_faqs %}
+        {% for item in items %}
+          {% if item.disabled == nil %}
+            {% include portfolio/card.html %}
           {% endif %}
         {% endfor %}
       </div>
