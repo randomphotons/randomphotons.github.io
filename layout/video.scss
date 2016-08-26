@@ -1,0 +1,113 @@
+---
+---
+// Styles specific to the index.html page
+@charset "UTF-8";
+
+@import "logo-light";
+@import "mixins";
+@import "portfolio/variables";
+
+// The list of screen sizes and the related height and font-width
+$player-sizes: ( 
+  // default sizes
+  '*': (height: 195px), 
+  sm: (height: 250px),
+  md: (height: 420px),
+  // large screen
+  lg: (height: 400px),
+  xl: (height: 400px)
+);
+
+@function player-height($size) {
+  @return map-get(checked-map-get(size, $player-sizes, $size), height);
+}
+
+@function player-width($size) {
+  @return map-get(checked-map-get(size, $player-sizes, $size), height) * 640/390;
+}
+
+@mixin player-position($size, $orientation: any) {
+  @include media-screen-width ($size, $orientation) {
+    top: menu-height($size);
+    height: player-height($size);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    @content;
+  }
+}
+
+@mixin player-dimensions($size) {
+  @include media-screen-width ($size) {
+    width: player-width($size);
+    height: player-height($size);
+  }
+}
+
+@mixin content-position($size, $orientation: any) {
+  @include media-screen-width ($size, $orientation) {
+    margin-top: player-height($size) + menu-height($size);
+    @content;
+  }
+}
+
+//// Ensure the height scales correctly
+body,
+html,
+main {
+  height: 100%;
+}
+
+#player-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background: $background;
+  
+  @include player-position(sm, portrait);
+  @include player-position(md);
+  @include player-position(lg);
+  @include player-position(xl);
+}
+
+#player {
+  width: player-width('*');
+  height: player-height('*');
+  @include player-dimensions(sm);
+  @include player-dimensions(md);
+  @include player-dimensions(lg);
+  @include player-dimensions(xl);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  overflow-y: auto;
+  
+  @include content-position(sm, portrait);
+  @include content-position(md);
+  @include content-position(lg);
+  @include content-position(xl);
+  
+  &.centered {
+      text-align: center;
+  }
+}
+
+.credits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  .credit {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 0.3em;
+  }
+}
+
