@@ -1,5 +1,8 @@
 <div class="card-block {% for each in item.tags %}{{each}} {% endfor %}">
   <div class="card">
+    {% if item.anchor %}
+    <a name="{{ item.anchor }}"></a>
+    {% endif %}
     {% if item.image %}
     <div class="card-image">
       {% if item.href %}

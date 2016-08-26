@@ -10,6 +10,7 @@ exclude:
 safe: true
 
 collections:
+  - alone_faqs
   - links
   - escape_credits
 
