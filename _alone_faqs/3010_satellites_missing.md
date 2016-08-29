@@ -2,7 +2,7 @@
 header: Where are all the satellites?
 tags:
   - satellites
-  - fake
+  - cgi
 ---
 
 Here is an image from the European Space Agency depicting how satellites are dispersed around the Earth:
@@ -12,7 +12,7 @@ Here is an image from the European Space Agency depicting how satellites are dis
 
 So many satellites! Why can't we see any in the video?
 
-Keep in mine that the image above is not to scale. The satellites depicted are huge compared to reality. Even if they were a single pixel they would still be gigantic.
+Keep in mind that the image above is not to scale. The satellites depicted are huge compared to reality. Even if they were a single pixel they would still be gigantic.
 
 Let's do some math and figure out how much distance will actually be between satellites on average.
 
@@ -20,7 +20,7 @@ According to the [UN Office for Outer Space Affairs](http://www.unoosa.org/oosa/
 
 Earth has a **circumference** of about **40,000 km**. If all **3056 satellites** were lined up around the equator at the same altitude, there would be **one every 13 km**.
 
-However, they are dispersed all around the planet in a range of different orbits. The Earth has a **radius** of about **6367 km**. Add **400 km** for the altitude of the ISS and you get **6767 km**. Given the formula for calculating the surface area of a sphere is *4&pi;r<sup>2</sup>*, that gives us a surface area of **509,424,190 km<sup>2</sup>**. Divide that by **3056** and you get **1 satellite** in every **124,951 km<sup>2</sup>**, or every **353 km by 353 km square**, if you prefer to think of it that way.
+However, they are dispersed all around the planet in a range of different orbits. The Earth has a **radius** of about **6367 km**. Add **400 km** for the altitude of the ISS and you get **6767 km**. Given the formula for calculating the surface area of a sphere is **_4 x &pi; x r<sup>2</sup>_**, that gives us a surface area of **509,424,190 km<sup>2</sup>**. Divide that by **3056** and you get **1 satellite** in every **124,951 km<sup>2</sup>**, or every **353 km by 353 km square**, if you prefer to think of it that way.
 
 That's a lot of empty space.
 

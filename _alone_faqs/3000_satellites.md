@@ -2,7 +2,7 @@
 header: Are there any satellites in the video?
 tags:
   - satellites
-  - fake
+  - cgi
 ---
 
 Satellites can be [hard to spot](http://www.esa.int/spaceinvideos/Videos/2016/05/Satellites_in_space) by humans in space, but occasionally the camera does pick them up. You can see one in this video around the middle of the screen at <a href='#' onclick='return skipTo("0:47")'>0:47</a>.

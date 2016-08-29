@@ -3,7 +3,7 @@ header: Why do flashes last so long?
 tags:
   - lightning
   - flashes
-  - fake
+  - cgi
 ---
 
 If you slow down the video, you will notice that the lightning flashes appear for 2 or 3 frames at times. A time-lapse will only capture a single flash for a single frame.
