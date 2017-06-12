@@ -12,7 +12,7 @@ tags:
   - space
 sort_order: 201110
 ---
-With spectacular vistas of Earth as seen from the International Space Station, this has been viewed over 16 million times since its release in November 2011.
+With spectacular vistas of Earth as seen from the International Space Station, this has been viewed over 18 million times since its release in November 2011.
 
 Featured on NASA's [Astronomy Picture of the Day](http://apod.nasa.gov/apod/ap120305.html).
 
