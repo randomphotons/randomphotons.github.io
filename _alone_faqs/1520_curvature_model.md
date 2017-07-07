@@ -22,5 +22,6 @@ We can now apply this to creating a flat circle of an appropriate scale to your 
 For example, if your eye level is at 6', you can set up a circle on the ground like so:
 
 <a href="/images/alone/iss_horizon_scaled.png"><img src="/images/alone/iss_horizon_scaled.png" style="width: 100%" alt="ISS Horizon Scaled"/></a>
+<label>Credit: David Peterson & Andrew Peterson</label>
 
 When you stand in the centre of the circle and look at the horizon, you can see the curve of the horizon at roughly the same perspective as on the ISS.

@@ -8,7 +8,8 @@ tags:
 
 In one of his many 'mythbuster' interviews, **Neil DeGrasse Tyson** mentions that the Earth is technically not a perfect sphere, but rather an 'oblate spheroid' and is in fact 'pear-shaped'. Here is the video:
 
-<iframe width="100%" height="150" src="https://www.youtube.com/embed/4E9G8fbnZ24" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/1OeWTrEA5fE" frameborder="0" allowfullscreen></iframe>
+<label>Credit: [fiveredpears](https://www.youtube.com/watch?v=1OeWTrEA5fE)/YouTube</label>
 
 This is true. However, some construe this to mean that the Earth will look like an actual pear. If you watch the whole interview he clearly says that at a cosmic level, the Earth is practically a perfect sphere.
 

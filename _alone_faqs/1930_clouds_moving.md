@@ -16,6 +16,7 @@ Let's imagine we are taking **two square photos** of the same clouds at the same
 This will give us **two pyramids**, with the point being the camera, and the base being the cloud layer. Something like this:
 
 ![](/images/alone/iss_vs_earth_side.svg)
+<label>Credit: David Peterson</label>
 
 If we calculate the dimensions of the bases, we can determine how much cloud area each photo will cover.
 
@@ -30,6 +31,7 @@ From the ISS at **400 km**, we get an area of **115,315 km<sup>2</sup>**, or **3
 That gives us a **ratio of 967:1** between the areas covered by the two photos. Here is what that would look like:
 
 ![ISS vs Earth photo scale](/images/alone/iss_vs_earth.svg)
+<label>Credit: David Peterson</label>
 
 The **blue** is the area covered by the photo from the **ISS**. The **red** is the area covered by the photo from **Earth**. You will understandably lose a lot of detail.
 
