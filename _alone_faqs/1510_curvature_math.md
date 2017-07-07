@@ -5,7 +5,6 @@ tags:
   - horizon
   - perspective
   - math
-  - cgi
 ---
 
 So, here is the math, if you want to dive in.

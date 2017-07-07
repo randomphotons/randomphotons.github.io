@@ -1,7 +1,7 @@
 ---
 header: Neil DeGrasse Tyson says the Earth is pear-shaped.
 tags:
-  - earth
+  - flatearth
   - pearshaped
   - oblatespheroid
 ---

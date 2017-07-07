@@ -6,7 +6,6 @@ tags:
   - perspective
   - model
   - scale
-  - cgi
 ---
 
 Knowing the radius of the horizon line and the distance of the ISS to that line means we can easily create a scale model on Earth.

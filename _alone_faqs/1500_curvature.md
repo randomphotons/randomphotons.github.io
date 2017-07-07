@@ -4,7 +4,6 @@ tags:
   - curvature
   - horizon
   - perspective
-  - cgi
 ---
 
 The ISS's altitude isn't high enough to see the full curve of the earth. However, it can see a reasonably large segment of the earth, enough to see a curve on that segment. Here are some scale diagrams to help illustrate it:
