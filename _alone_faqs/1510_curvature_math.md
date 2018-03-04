@@ -16,7 +16,7 @@ There are a few steps we need to take to figure this out mathematically. Here is
 
 Both the radius of the earth and the altitude of the ISS vary slightly depending on where you are. These numbers fit within the range.
 
-Now, we calculate the distance to the horizon using this rule: the tangent between any point and a single point of a circle will be perpendicular to the centre of the circle. That point of tangency is our horizon, and we can calculate it using Pythagoras classic theorum:
+Now, we calculate the distance to the horizon using this rule: the tangent between any point and a single point of a circle will be perpendicular to the centre of the circle. That point of tangency is our horizon, and we can calculate it using Pythagora's classic theorum:
 
 ![A^2 + B^2 = C^2](http://latex.codecogs.com/gif.latex?A%5E2%20&plus;%20B%5E2%20%3D%20C%5E2)
 
