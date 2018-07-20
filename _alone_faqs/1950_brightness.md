@@ -9,4 +9,4 @@ If you were looking out the window of the ISS yourself, they would not be so int
 
 The photos were taken with a long exposure (about 1-3 seconds per photo, depending on the sequence), which allows the camera to capture more light.
 
-Additionally, I increased the contrast and boosted the saturation for the sequences to help them pop a bit more in the video.
+Additionally, the contrast and saturation were boosted to help them pop a bit more in the video.

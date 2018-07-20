@@ -32,7 +32,7 @@ And here is the view you get from the ISS, looking directly at the horizon, with
 <a href="/images/alone/iss_horizon_pov.png"><img src="/images/alone/iss_horizon_pov.png" style="width: 100%" alt="ISS Horizon POV"/></a>
 <label>Credit: David Peterson & Andrew Peterson</label>
 
-And an actual photo from the ISS, taken with a 15 *mm* lens on a Nikon D3S, for comparison:
+And an actual photo from the ISS, taken with a 15 mm lens on a Nikon D3S, for comparison:
 
 <a href="https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS028&roll=E&frame=33400"><img src="/images/alone/ISS028-E-33400.JPG" style="width: 100%" alt="ISS View"/></a>
 <label>Credit: [NASA](https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS028&roll=E&frame=33400)</label>
