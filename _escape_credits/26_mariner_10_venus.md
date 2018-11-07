@@ -1,6 +1,6 @@
 ---
-href: http://go.nasa.gov/2aXRJWF
-header: "Venus full"
+href: https://www.nasa.gov/multimedia/imagegallery/image_feature_2443.html
+header: "Mariner 10's First Close-Up Photo of Venus"
 credits:
   - "Credit: NASA"
 timecodes:
