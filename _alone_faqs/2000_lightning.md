@@ -5,4 +5,4 @@ tags:
   - flashes
 ---
 
-The blue flashes you in the first sequence are lightning.
+The blue flashes you see in the first sequence are lightning.

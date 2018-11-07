@@ -10,6 +10,9 @@
       <a href="{{ item.href }}"><img src="{{ site.baseurl }}/images/{{ item.image }}" alt="{{ caption }}" /></a>
       {% else %}
       <img src="{{ site.baseurl }}/images/{{ item.image }}" /> {% endif %}
+      {% if item.image_copyright %}
+      <div class="card-copyright">{{ item.image_copyright | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      {% endif %}
     </div>
     {% endif %} {% if item.header %}
     <div class="card-header">
