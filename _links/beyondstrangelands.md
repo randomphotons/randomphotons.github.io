@@ -17,4 +17,4 @@ In 1982, the famous paranormal expert Grant Peters went missing while filming hi
 
 This is an Audible Original Podcast, developed and produced with investment from Screen Queensland.
 
-Co-written by David Peterson & Simon Taylor, available from Audible ([Australia](https://www.audible.com.au/pd/Beyond-Strange-Lands-Audiobook/B086Q2LGBM) | [UK](https://www.audible.co.uk/pd/Beyond-Strange-Lands-Audiobook/B086Q3J5BM) | [USA](https://www.audible.com/pd/Beyond-Strange-Lands-Audiobook/B0892SCVXM)).
+Co-written by David Peterson & Simon Taylor, available from Audible ([Australia](https://www.audible.com.au/pd/Beyond-Strange-Lands-Audiobook/B086Q2LGBM) \| [UK](https://www.audible.co.uk/pd/Beyond-Strange-Lands-Audiobook/B086Q3J5BM) \| [USA](https://www.audible.com/pd/Beyond-Strange-Lands-Audiobook/B0892SCVXM)).
