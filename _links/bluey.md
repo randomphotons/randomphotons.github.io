@@ -4,7 +4,7 @@ image: bluey.jpg
 image_copyright: Courtesy of [Ludo Studio](http://ludostudio.com.au/)
 href: http://www.abc.net.au/abcforkids/shows/s4894252.htm
 header: _Bluey_ (2018)
-group: film
+group: tv
 tags:
   - tv
   - kids
