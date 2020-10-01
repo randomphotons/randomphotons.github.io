@@ -4,7 +4,7 @@ image: robbiehood.jpg
 image_copyright: Courtesy of [Ludo Studio](http://ludostudio.com.au/)
 href: https://youtu.be/fZi88Ad7tF8
 header: _Robbie Hood_ (2019)
-group: film
+group: tv
 tags:
   - tv
   - indigenous

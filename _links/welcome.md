@@ -6,5 +6,5 @@ tags:
   - about
 hidetags: true
 ---
-<div>This is the portfolio of David Peterson, filmmaker / programmer / wanderer. You can select an area of interest in the menu above.</div>
+<div>This is the portfolio of David Peterson, storyteller / programmer / wanderer. You can select an area of interest in the menu above.</div>
 

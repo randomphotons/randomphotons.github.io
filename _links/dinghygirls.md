@@ -3,9 +3,9 @@ name: dinghygirls
 image: dinghygirls.jpg
 href: https://iview.abc.net.au/show/dinghy-girls
 header: _Dinghy Girls_ (2018)
-group: film
+group: tv
 tags:
-  - film
+  - tv
   - series
   - editor
   - abc
