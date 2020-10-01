@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 340 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <rect x="0" y="0" width="340" height="340" style="fill:rgb(51,153,204);"/>
-    <rect x="164.502" y="164.502" width="10.995" height="10.995" style="fill:rgb(204,0,0);"/>
-</svg>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h340v340h-340z" fill="#39c"/><path d="m164.502 164.502h10.995v10.995h-10.995z" fill="#c00"/></svg>
