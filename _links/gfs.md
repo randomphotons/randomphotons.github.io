@@ -11,4 +11,4 @@ tags:
   - film
 sort_order: 201211
 ---
-Completed a _Bachelor of Film & Screen Media_ at Griffith University in 2012.
+Completed a _Bachelor of Film & Screen Media_ in 2012 and a _Master of Screen Production_ in 2019 at Griffith University.
