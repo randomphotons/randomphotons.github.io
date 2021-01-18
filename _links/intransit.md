@@ -1,6 +1,6 @@
 ---
 name: intransit
-image: intransit.jpg
+image: intransit_50pct.jpg
 href: http://vimeo.com/randomphotons/intransit
 header: _In Transit_ (2013)
 group: film

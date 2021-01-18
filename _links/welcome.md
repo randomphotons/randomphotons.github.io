@@ -1,6 +1,6 @@
 ---
 name: welcome
-image: headshot.jpg
+image: headshot_50pct.jpg
 sort_order: 9000000
 group: about
 tags:
