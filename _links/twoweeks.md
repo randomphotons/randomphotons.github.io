@@ -1,6 +1,6 @@
 ---
 name: twoweeks
-image: twoweeks.jpg
+image: twoweeks_50pct.jpg
 href: https://www.facebook.com/twoweekstv/
 header: _Two Weeks_ (2017)
 group: film
