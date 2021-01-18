@@ -113,6 +113,13 @@ h1, h2 {
   .card-body {
     max-height: 80%;
     overflow: auto;
+    div.youtube {
+      text-align: center;
+    }
+    iframe.youtube {
+      width: 100%;
+      max-height: 350px;
+    }
   }
 }
 
