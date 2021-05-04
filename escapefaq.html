@@ -1,0 +1,34 @@
+---
+layout: portfolio
+style: layout/video.css
+title: Escape Velocity FAQ | randomphotons.com
+menu:
+  - { name: all, href: "/#*" }
+  - { name: film, href: "/#film" }
+  - { name: producer, href: "/#producer" }
+  - { name: editor, href: "/#editor" }
+  - { name: about, href: "/#about" }
+---
+
+<div class='centered'>
+  <div id='player' data-video-id="PLcE3AI9wwE"></div>
+</div>
+
+<div>
+  <h1>Escape Velocity</h1>
+  
+  <h2>Frequently Asked Questions</h2>
+
+  <div id="cards-wrapper">
+    <div id="cards">
+      <div class="card-sizer"></div>
+        {% assign items = site.escape_faqs %}
+        {% for item in items %}
+          {% if item.disabled == nil %}
+            {% include portfolio/card.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/layout/youtube.js"></script>

@@ -52,6 +52,7 @@
   }
 }
 
+.card-body h1,
 .card-header,
 .card-header a,
 .card-header a:hover,
@@ -63,6 +64,7 @@
   font-weight: bold;
   text-decoration: none;
   margin-top: 0;
+  text-align: left;
 }
 
 div.card-header {
