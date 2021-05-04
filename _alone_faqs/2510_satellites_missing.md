@@ -1,9 +1,9 @@
 ---
-header: Where are all the satellites?
 tags:
   - satellites
   - cgi
 ---
+# Where are all the satellites?
 
 Here is an image from the European Space Agency depicting how satellites are dispersed around the Earth, circa 2009:
 
