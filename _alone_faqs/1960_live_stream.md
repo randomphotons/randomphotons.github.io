@@ -1,10 +1,11 @@
 ---
-header: Why can't I see city lights in the ISS Live Stream?
 tags:
   - brightness
   - cgi
   - livestream
 ---
+# Why can't I see city lights in the ISS Live Stream?
+
 The ISS has several [high-definition cameras](https://eol.jsc.nasa.gov/ESRS/HDEV/) which send a live stream with views of Earth. It provides great views during the day, but at night it is basically black.
 
 The cameras, like everything on the ISS, is an experiment that happens to have a nice side-effect for us here on the surface. But the goal of the expiriment is to [test how commercial-level cameras function in space](https://eol.jsc.nasa.gov/ESRS/HDEV/).

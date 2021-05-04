@@ -8,7 +8,7 @@ tags:
 Here is an image from the European Space Agency depicting how satellites are dispersed around the Earth, circa 2009:
 
 [![ESA Satellite Dispersal](/images/alone/312941main_Bee-Hive-1_H1_70pct.jpg){:width="100%"}](https://www.nasa.gov/multimedia/imagegallery/image_feature_1283.html)
-<label>Credit: [ESA](http://esa.int/) (via [NASA](http://www.nasa.gov/multimedia/imagegallery/image_feature_1283.html))</label>
+> Credit: [ESA](http://esa.int/) (via [NASA](http://www.nasa.gov/multimedia/imagegallery/image_feature_1283.html))
 
 So many satellites! Why can't we see any in the video?
 

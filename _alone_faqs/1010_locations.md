@@ -1,9 +1,9 @@
 ---
-header: What locations are visible in the video?
 tags:
   - where
   - locations
 ---
+# What locations are visible in the video?
 
 The sequences are:
 

@@ -1,5 +1,4 @@
 ---
-header: Can I create a scale model of the curvature?
 tags:
   - curvature
   - horizon
@@ -7,6 +6,7 @@ tags:
   - model
   - scale
 ---
+# Can I create a scale model of the curvature?
 
 Knowing the radius of the horizon line and the distance of the ISS to that line means we can easily create a scale model on Earth.
 
@@ -21,6 +21,6 @@ We can now apply this to creating a flat circle of an appropriate scale to your 
 For example, if your eye level is at 6', you can set up a circle on the ground like so:
 
 [![ISS Horizon Scaled](/images/alone/iss_horizon_scaled.png){:width="100%"}](/images/alone/iss_horizon_scaled.png)
-<label>Credit: David Peterson & Andrew Peterson</label>
+> Credit: David Peterson & Andrew Peterson
 
 When you stand in the centre of the circle and look at the horizon, you can see the curve of the horizon at roughly the same perspective as on the ISS.

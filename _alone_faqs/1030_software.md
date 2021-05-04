@@ -1,9 +1,9 @@
 ---
-header: What software was used to make it?
 tags:
   - software
   - editing
 ---
+# What software was used to make it?
 
 There were three main steps for this project.
 

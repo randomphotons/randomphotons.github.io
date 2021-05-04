@@ -1,11 +1,11 @@
 ---
-header: How do you calculate the curvature?
 tags:
   - curvature
   - horizon
   - perspective
   - math
 ---
+# How do you calculate the curvature?
 
 So, here is the math, if you want to dive in.
 
