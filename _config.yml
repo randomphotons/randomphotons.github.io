@@ -14,6 +14,7 @@ collections:
   - links
   - escape_credits
   - escape_faqs
+  - spacex_faqs
 
 #Misc Settings
 google_analytics_id: UA-484023-10
