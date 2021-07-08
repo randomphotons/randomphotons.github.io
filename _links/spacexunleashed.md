@@ -13,6 +13,6 @@ tags:
   - space
 sort_order: 202107
 ---
-Rocket through SpaceX history from 2006 to 2021, with footage from every launch from the first Falcon 1, through the Falcon 9, Dragon, Falcon Heavy, and Crew Dragon, up to SN15, the first Starship prototype to successfully take off and land in one piece (without exploding soon after).
+Rocket through SpaceX history from 2006 to 2021, with footage from every launch, starting with the first Falcon 1, through the Falcon 9, Dragon, Falcon Heavy, and Crew Dragon, up to SN15, the first Starship prototype to successfully take off and land in one piece (without exploding soon after).
 
 David produced and edited this short film.
