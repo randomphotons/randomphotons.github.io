@@ -3,7 +3,7 @@ name: bluey
 image: bluey.jpg
 image_copyright: Courtesy of [Ludo Studio](http://ludostudio.com.au/)
 href: http://www.abc.net.au/abcforkids/shows/s4894252.htm
-header: _Bluey_ (2018-)
+header: _Bluey_ (2018-2019)
 group: tv
 tags:
   - tv
