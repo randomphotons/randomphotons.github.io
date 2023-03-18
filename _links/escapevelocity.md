@@ -15,4 +15,4 @@ sort_order: 201608
 ---
 Take a thrilling ride through the history of human space exploration, from the first rocket launch in 1926 to the groundbreaking achievements of Gagarin, Armstrong, Hubble, Curiosity, and beyond.
 
-David produced and edited this captivating short film.
+David produced and edited this captivating short documentary, viewed over 4 million times on YouTube.
