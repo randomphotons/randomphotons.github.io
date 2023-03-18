@@ -13,6 +13,6 @@ tags:
   - space
 sort_order: 201608
 ---
-From the first rocket launch in 1926 to Gagarin, Armstrong, Hubble, Curiosity and beyond, take a fast ride through the history of human space exploration.
+Take a thrilling ride through the history of human space exploration, from the first rocket launch in 1926 to the groundbreaking achievements of Gagarin, Armstrong, Hubble, Curiosity, and beyond.
 
-David produced and edited this short film.
+David produced and edited this captivating short film.

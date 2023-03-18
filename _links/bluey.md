@@ -15,6 +15,6 @@ tags:
   - screenqld
 sort_order: 201810
 ---
-Bluey is an inexhaustible six year-old Blue Heeler dog, who loves to play and turns everyday family life into extraordinary adventures, developing her imagination as well as her mental, physical and emotional resilience.
+Join Bluey, a spirited six-year-old Blue Heeler dog, as she transforms everyday family life into extraordinary adventures that develop her imagination, mental, physical, and emotional resilience.
 
-Winner of an International Emmy in 2019, created by Joe Brumm, produced by [Ludo Studio](http://ludostudio.com.au/), screening on [ABC Kids](http://www.abc.net.au/abcforkids/shows/s4894252.htm) and BBC in 2018. David served as an editor on over a dozen episodes across season 1 & 2.
+Winner of an International Emmy in 2019, created by Joe Brumm and produced by [Ludo Studio](http://ludostudio.com.au/), Bluey airs on [ABC Kids](http://www.abc.net.au/abcforkids/shows/s4894252.htm) and [Disney+](https://www.disneyplus.com). David contributed as an editor on over a dozen episodes across seasons 1 & 2.

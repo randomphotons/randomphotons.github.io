@@ -13,6 +13,6 @@ tags:
   - screenqld
 sort_order: 201808
 ---
-Welcome to *Dinghy Girls*, Torres Strait women in their element, daring to challenge the wild frontier of their sea country. They are young, vivacious and yearn for adventure out on the vast seascape of the Torres Strait.
+Embark on an adventure with the _Dinghy Girls_, a group of fearless Torres Strait women who embrace the wild frontier of their sea country. Young, spirited, and thirsting for adventure, they conquer the vast seascape of the Torres Strait.
 
-Screened on [ABC iView](https://iview.abc.net.au/show/dinghy-girls) in 2018. Written and directed by Shanice Tabua, produced by Aaron Fa'aoso. David served as the editor.
+Watch it on [ABC iView](https://iview.abc.net.au/show/dinghy-girls) in 2018. Written and directed by Shanice Tabua, produced by Aaron Fa'aoso. David served as the editor.

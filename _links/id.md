@@ -9,4 +9,4 @@ tags:
   - email
 sort_order: 20
 ---
-Download David's details into your contact app [here]({{ page.href }}), or just [send an email](mailto:productions@randomphotons.com).
+Easily connect with David by [downloading his contact details]({{ page.href }}) or simply [send an email](mailto:productions@randomphotons.com) for inquiries and collaboration opportunities.

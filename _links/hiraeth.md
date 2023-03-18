@@ -11,9 +11,8 @@ tags:
   - gfs
 sort_order: 201512
 ---
+_Hiraeth_ tells the story of Angie, who grieves the loss of her estranged father by breaking into his home to reconnect with his memory. She soon encounters Erin, the woman responsible for tearing their family apart.
 
-Grieving over the death of her estranged father, Angie breaks into his home, trying to reconnect with his memory until she comes face to face with Erin, the woman that tore their family apart.
-
-Written and directed by [Katherine Chediak Putnam](http://www.imdb.com/name/nm6884173/) and produced by [Dean Law](http://www.imdb.com/name/nm4256221/), David was the editor for this short film.
+This emotionally charged short film was written and directed by [Katherine Chediak Putnam](http://www.imdb.com/name/nm6884173/) and produced by [Dean Law](http://www.imdb.com/name/nm4256221/), with David serving as the editor.
 
 _Password available upon [request](#email)._

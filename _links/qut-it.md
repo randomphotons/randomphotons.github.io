@@ -10,4 +10,4 @@ tags:
   - code
 sort_order: 199912
 ---
-Completed a _Bachelor of Information Technology_ at QUT in 1999.
+David completed a _Bachelor of Information Technology_ at the Queensland University of Technology (QUT) in 1999.

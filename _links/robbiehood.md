@@ -14,8 +14,6 @@ tags:
   - trailer
 sort_order: 201906
 ---
-Robbie Hood is a charismatic thirteen-year-old misfit with a heart of gold, who skirts the law to right the wrongs he sees taking place in his community.
+_Robbie Hood_ is a captivating TV series following a thirteen-year-old misfit with a heart of gold who uses his charm to right the wrongs he sees happening in his community.
 
-[Robbie Hood](https://www.sbs.com.au/guide/program/robbie-hood) is a Ludo Studio and Since1788 production for SBS, directed by Dylan River (*Finke: There and Back*, *Sweet Country*), written by Kodie Bedford (*Mystery Road*, *Grace Beside Me*), produced by Tanith Glynn-Maloney (*She Who Must Be Loved*, *Nulla Nulla*) and Meg O’Connell (*Doodles*, *The Sketchy Show*), with Charlie Aspinwall (*Bluey*, *Doodles*), Daley Pearson (*#7DaysLater*, *The Strange Calls*) and Sue Masters (SBS) executive producing.
-
-David served as the editor for the trailer.
+[Robbie Hood](https://www.sbs.com.au/guide/program/robbie-hood) is a Ludo Studio and Since1788 production for SBS, directed by Dylan River, written by Kodie Bedford, and produced by Tanith Glynn-Maloney and Meg O'Connell. Charlie Aspinwall, Daley Pearson, and Sue Masters served as executive producers. David showcased his editing expertise by crafting the trailer for the series.
