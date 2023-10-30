@@ -13,28 +13,28 @@
     text-align: center;
   }
   
-  .fa {
+  .fa-brands, .fa-solid {
     font-size: 35px;
     color: black;
   }
 
-  .fa-youtube-square {
+  .fa-square-youtube {
     color: rgb(205,32,31)
   }
 
-  .fa-vimeo-square {
+  .fa-square-vimeo {
     color: rgb(26,183,234)
   }
 
-  .fa-twitter-square {
-    color: rgb(85,172,238)
+  .fa-square-x-twitter {
+    color: black;
   }
 
-  .fa-facebook-square {
+  .fa-square-facebook {
     color: rgb(59,89,152)
   }
 
-  .fa-envelope-square {
+  .fa-square-envelope {
     color: slategrey
   }
 }
