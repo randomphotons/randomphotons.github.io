@@ -13,4 +13,5 @@ sort_order: 10000000
     <li class="social"><a href="https://x.com/david_peterson" target="_blank" aria-label="X / Twitter"><i class="fa-brands fa-square-x-twitter"></i></a></li>
     <li class="social"><a href="https://www.facebook.com/davidpetersonau/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
     <li class="social"><a href="mailto:productions@randomphotons.com" aria-label="Email"><i class="fa-solid fa-square-envelope"></i></a></li>
+    <li class="social"><a href="https://www.linkedin.com/in/davidpetersonau/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
   </ul>
