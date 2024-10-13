@@ -1,6 +1,6 @@
 ---
 name: untethered
-image: untethered_30pct.jpg
+image: untethered_30pct.webp
 image_copyright: Image by David Peterson/Alexis Antoine/Adrien Pelletier
 href: mailto:productions@randomphotons.com?subject=Untethered%20Query
 header: _Untethered_ (in development)

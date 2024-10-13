@@ -1,6 +1,6 @@
 ---
 name: robbiehood
-image: robbiehood_50pct.jpg
+image: robbiehood_50pct.webp
 image_copyright: Courtesy of [Ludo Studio](http://ludostudio.com.au/)
 href: https://youtu.be/fZi88Ad7tF8
 header: _Robbie Hood_ (2019)

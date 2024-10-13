@@ -1,6 +1,6 @@
 ---
 name: postmortemmary
-image: pmm_2_70pct.jpg
+image: pmm_2_70pct.webp
 href: https://www.facebook.com/PostMortemMary/
 header: _Post Mortem Mary_ (2017)
 group: film

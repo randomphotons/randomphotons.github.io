@@ -1,6 +1,6 @@
 ---
 name: window
-image: window.jpg
+image: window.webp
 href: https://youtu.be/GOAEIMx39-w
 header: _The World Outside My Window_ (2013)
 group: film

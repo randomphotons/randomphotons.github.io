@@ -1,6 +1,6 @@
 ---
 name: dinghygirls
-image: dinghygirls_80pct.jpg
+image: dinghygirls_80pct.webp
 href: https://iview.abc.net.au/show/dinghy-girls
 header: _Dinghy Girls_ (2018)
 group: tv

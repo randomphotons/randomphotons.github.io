@@ -1,6 +1,6 @@
 ---
 name: escape
-image: escapevelocity_30pct.jpg
+image: escapevelocity_30pct.webp
 href: /escapevelocity.html
 header: _Escape Velocity_ (2016)
 caption: Escape Velocity (2016)

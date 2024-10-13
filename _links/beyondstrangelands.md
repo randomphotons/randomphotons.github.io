@@ -1,6 +1,6 @@
 ---
 name: beyondstrangelands
-image: bsl.jpg
+image: bsl.webp
 image_copyright: Courtesy of [Audible Australia](http://audible.com.au/)
 href: https://www.audible.com.au/pd/Beyond-Strange-Lands-Audiobook/B086Q2LGBM
 header: _Beyond Strange Lands_ (2020)

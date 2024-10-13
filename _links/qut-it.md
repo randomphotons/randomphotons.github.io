@@ -1,6 +1,6 @@
 ---
 name: qut
-image: qut.jpg
+image: qut.webp
 href: http://qut.edu.au/
 header: _Queensland University of Technology_
 group: code

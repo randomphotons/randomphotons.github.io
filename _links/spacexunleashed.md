@@ -1,6 +1,6 @@
 ---
 name: spacexunleashed
-image: spacexunleashed.jpg
+image: spacexunleashed.webp
 href: https://youtu.be/l0i8lwDSkeE
 header: _SpaceX Unleashed_ (2021)
 caption: SpaceX Unleashed (2021)

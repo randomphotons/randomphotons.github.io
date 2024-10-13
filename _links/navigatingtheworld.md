@@ -1,6 +1,6 @@
 ---
 name: navigatingtheworld
-image: navigatingtheworld.jpg
+image: navigatingtheworld.webp
 href: https://www.primevideo.com/detail/Navigating-the-World/0GKHTB3KAMU7TFGGP09PY0P15X
 header: _Navigating the World_ (2023)
 caption: Navigating the World (2023)
